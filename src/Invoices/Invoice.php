@@ -19,9 +19,13 @@ class Invoice{
     }
 
     public function printInvoice(){
-        echo "----------------------------------\n";
-        echo "Date: ".$this->orderTime."\n";
-        echo "Final Price:  $".$this->finalPrice."\n";
-        echo "----------------------------------\n";
+        $hr = "----------------------------------\n";
+        print(sprintf(
+            "%sDate: %s\nFinal Price:  %s\n%s",
+            $hr,
+            $this->orderTime,
+            $this->finalPrice,
+            $hr
+        ));
     }
 }
