@@ -110,6 +110,13 @@ php main.php
 <tr>
   <td>VirtualBox</td>
 </tr>
+<tr>
+  <td rowspan=2>その他</td>
+  <td>Git</td>
+</tr>
+<tr>
+  <td>Github</td>
+</tr>
 </table>
 
 ## 🗺️クラス図
